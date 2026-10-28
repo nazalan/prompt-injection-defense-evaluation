@@ -1,0 +1,10 @@
+cluster_id,strategy_id,strategy_name,strategy_description,taxonomy_confidence
+0,S1,Fake Directive Manipulation,Attackers use fake system or authority directives to coerce AI into executing unauthorized actions by mimicking trusted protocols.,0.9
+1,S1,Fake Directive Manipulation,Attackers use fake system or authority directives to coerce AI into executing unauthorized actions by mimicking trusted protocols.,0.9
+2,S1,Fake Directive Manipulation,Attackers use fake system or authority directives to coerce AI into executing unauthorized actions by mimicking trusted protocols.,0.9
+3,S2,Stealthy Dependency Injection,Indirectly instructs AI to append specific dependencies to environment files without user awareness.,0.95
+4,S1,Fake Directive Manipulation,Attackers use fake system or authority directives to coerce AI into executing unauthorized actions by mimicking trusted protocols.,0.9
+5,S1,Fake Directive Manipulation,Attackers use fake system or authority directives to coerce AI into executing unauthorized actions by mimicking trusted protocols.,0.9
+6,S1,Fake Directive Manipulation,Attackers use fake system or authority directives to coerce AI into executing unauthorized actions by mimicking trusted protocols.,0.9
+7,S1,Fake Directive Manipulation,Attackers use fake system or authority directives to coerce AI into executing unauthorized actions by mimicking trusted protocols.,0.9
+8,S3,Context Hijacking,Manipulates the AI by framing requests within seemingly legitimate contexts to achieve desired actions.,0.85

@@ -1,0 +1,11 @@
+\begin{tabular}{llrrrrrrrrrrrrrr}
+\toprule
+defense\_id & defense & attack\_samples & attack\_blocks & attack\_block\_rate & attack\_pass\_rate & end\_to\_end\_judge\_successes & end\_to\_end\_asr & benign\_samples & false\_positives & fpr & f1 & mean\_operational\_tokens & mean\_operational\_calls & mean\_operational\_latency\_seconds & p95\_operational\_latency\_seconds \\
+\midrule
+D0 & No defense & 95 & 0 & 0.000 & 1.000 & 71 & 0.747 & 198 & 0 & 0.000 & 0.000 & 1701.181 & 1.000 & 38.448 & 117.313 \\
+D1 & Rule based input filter & 95 & 2 & 0.021 & 0.979 & 66 & 0.695 & 198 & 0 & 0.000 & 0.041 & 1719.328 & 0.993 & 40.813 & 128.178 \\
+D2 & LLM input classifier & 95 & 13 & 0.137 & 0.863 & 60 & 0.632 & 198 & 0 & 0.000 & 0.241 & 2442.618 & 1.956 & 49.726 & 137.464 \\
+D3 & LLM output filter & 95 & 62 & 0.653 & 0.347 & 14 & 0.147 & 198 & 3 & 0.015 & 0.775 & 2922.952 & 2.000 & 51.880 & 144.973 \\
+D4 & Cascade defense & 95 & 17 & 0.179 & 0.821 & 55 & 0.579 & 198 & 0 & 0.000 & 0.304 & 2390.396 & 1.935 & 47.159 & 134.388 \\
+\bottomrule
+\end{tabular}

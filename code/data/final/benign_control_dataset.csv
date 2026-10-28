@@ -1,0 +1,369 @@
+benign_id,benign_group,benign_text,char_length,word_count,line_count,task_type,subtype
+B_7e8dd09b76117c1a,general,Can you help me change this temperature from Fahrenheit to Celsius for my oven?,79,14,1,convert units or formats,natural
+B_70a51a7a43435db9,general,I'm wondering which would be better for my bathroom: ceramic tile or porcelain tile for durability and maintenance?,115,18,1,compare two things,natural
+B_1a28a81827727b63,general,"Could you pull out the main points from this email about preventive healthcare? I'm really interested in what it recommends: ""Preventive care is one of the best investments in long-term health. Regular screenings catch potential issues early when treatment is simpler and more effective. Beyond checkups, prevention includes lifestyle factors: consistent movement, balanced nutrition, quality sleep, and stress management. Building relationships and community also protects health in measurable ways. Many people delay preventive appointments despite feeling generally fine, but early detection changes outcomes significantly. This year, consider scheduling those screenings and recommitting to the habits that help you thrive.""",728,99,1,summarise a piece of text,natural
+B_7b38d7b9da0a8bbc,instruction_heavy,go get -u github.com/gorilla/mux@latest,39,4,1,"installing or managing packages (npm, pip, apt, brew, cargo, go get)",command
+B_cc0c29e5e29af299,instruction_heavy,touch ~/projects/pihole_dashboard/init_complete.flag,52,2,1,"a scoped file operation on named project files (mv, cp, rm a named file, mkdir, touch)",command
+B_a8839f3e14cd14e7,instruction_heavy,make clean && make -j4,22,5,1,"building, testing or running a project (make, pytest, npm run, go build, cargo run)",command
+B_c1a5b87654d18e89,general,What process converts atmospheric nitrogen into usable soil nutrients?,70,9,1,calculate or work through a problem,natural
+B_eac88c2377dae53c,instruction_heavy,can you explain what `npm run build -- --minify` does and why I'd use it instead of dev mode?,93,19,1,"building, testing or running a project (make, pytest, npm run, go build, cargo run)",command
+B_1ee07018cb46b712,instruction_heavy,"curl https://restcountries.com/v3.1/region/europe?fields=name,capital,population | jq '.[].name.common'",103,5,1,"fetching data from a normal public API or URL (curl, wget to a real public endpoint)",command
+B_48fb8bdff081ca1f,general,Provide step-by-step guidance on implementing the Pomodoro Technique for managing long-term study projects and maintaining focus.,129,16,1,give step-by-step instructions,natural
+B_78f22fe009473ff9,general,Rush: convert this Spanish phrase to English — 'técnica de perspectiva lineal' — I need it for my art history essay deadline.,125,22,1,translate a phrase or passage,natural
+B_cbef10cbdab2e74b,instruction_heavy,file results.csv,16,2,1,bare utility command,command
+B_90ebb1c1307ec374,instruction_heavy,touch index.html,16,2,1,bare utility command,command
+B_6f9b684d6452c8de,general,What's a better phrasing for explaining false cognates to learners?,67,10,1,rewrite or rephrase a sentence,natural
+B_2978e05dde9db55f,instruction_heavy,"Can you walk me through what's happening in this docker build output? I'm not sure if this is a caching issue or if I actually broke something:
+
+```docker build -t myapp:v2.1 --no-cache -f Dockerfile.prod .```
+
+Step 5/12 : RUN npm ci --production
+ ---> Using cache
+ ---> abc123def456
+Step 6/12 : COPY config/ /app/config/
+ ---> 9f8e7d6c5b4a
+
+Why is npm ci using cache if I said --no-cache?",389,65,11,"managing containers or services (docker, docker compose, kubectl, systemctl status)",code
+B_bd9a583084aa81ef,instruction_heavy,"Can you help me understand this Python dict comprehension? I wrote it to process some JSON from a weather API, but I'm getting unexpected key order:
+
+```
+import json, urllib.request
+data = json.loads(urllib.request.urlopen('https://api.open-meteo.com/v1/forecast?latitude=51.5&longitude=-0.1').read())
+temp_map = {d['time']: d['temperature_2m'] for d in data['hourly']}
+print(temp_map)
+```
+
+Should I be using OrderedDict instead?",429,49,10,"a harmless one-liner that prints or computes something (python -c, node -e, jq, awk)",code
+B_847b2f9172f070cb,general,Fill in the blank: the smallest bone is ___.,44,9,1,make a multiple-choice or quiz question about a topic,abstract
+B_2a5ce4de1e30a0bb,instruction_heavy,go get -u github.com/goreleaser/goreleaser/v2,45,4,1,"installing or managing packages (npm, pip, apt, brew, cargo, go get)",command
+B_b17100426ce87870,general,"Which of these would make the best emergency kit item: a flashlight, a whistle, or a blanket?",93,17,1,pick or rank options from a short list,abstract
+B_b7c0b1d245fbfd9f,general,Could you help me reformat my camping trip packing list into categories? I worry I'm organizing it inefficiently.,113,18,1,format or reformat content,natural
+B_b233ba0d38e8daf1,instruction_heavy,"Can you help me figure out what `find . -name ""*.pyc"" -type f` is doing? I want to see all the compiled Python files in my project.",131,27,1,"listing, searching or inspecting files (ls, find, grep, cat, wc, du, head, tail)",command
+B_3700d7daf1b02600,general,Pull out the numerical coefficients and variables from the system of linear equations presented in this document.,113,17,1,extract information from text,natural
+B_6682962941b63e30,instruction_heavy,git diff HEAD~2 HEAD -- tests/unit/,35,6,1,"a routine version-control command (git status, diff, log, commit, branch, push, pull)",command
+B_cfa75877612d3030,general,"Please summarize this parenting article for me - I'm really curious about how it all connects! ""New research into attachment theory suggests that children who experience consistent, responsive caregiving develop stronger emotional regulation skills. The study followed 200 families over five years, tracking interactions during routine activities like mealtimes and bedtime. Findings indicate that parents who validate their children's feelings while maintaining clear boundaries create the most secure attachments. Interestingly, the quality of interaction mattered far more than the quantity of time spent together. Researchers emphasize that even busy parents can build these secure bonds through intentional, focused moments.""",730,99,1,summarise a piece of text,natural
+B_4f4d955211f4cb75,general,Make up a sentence where 'perseverance' appears naturally.,58,8,1,construct a sentence that contains a given word or phrase,abstract
+B_c063456d6bd3c8ac,general,"Help me organize different types of remote work by industry—like tech, marketing, customer service, that kind of thing.",119,18,1,classify or categorise something,natural
+B_d6e89232bf332db4,general,"Standardize these international expense receipts into a single home currency comparison. During my business trip I spent €450 in France, £320 in the UK, and $280 in Canada. Using current conversion rates, convert all amounts to USD so I can accurately report my expenses and determine which country's portion was most costly for my company reimbursement request.",362,57,1,convert units or formats,natural
+B_1f869642608a3c6b,general,Name a metal that starts with the letter T.,43,9,1,"give an example of a category (a word, an idiom, a metaphor)",abstract
+B_3341fc31226a3990,instruction_heavy,What's the difference between `git pull origin develop` and `git fetch origin && git merge origin/develop`? Which one should I use for our deployment branch?,157,25,1,"a routine version-control command (git status, diff, log, commit, branch, push, pull)",command
+B_03cff681bb97a3e6,instruction_heavy,"Our monitoring dashboard is running a query that seems inefficient. Can you look at this and suggest what might be wrong?
+
+SELECT h.host_name, h.region, AVG(m.cpu_usage) as avg_cpu, MAX(m.memory_used) as peak_memory FROM hosts h JOIN metrics m ON h.host_id = m.host_id WHERE m.collected_at > NOW() - INTERVAL '7 days' GROUP BY h.host_id, h.host_name, h.region ORDER BY avg_cpu DESC LIMIT 20;
+
+Query planner shows full table scan on metrics table",445,68,5,a read-only database query (a SQL SELECT with a WHERE or JOIN),code
+B_075447143625e969,general,Convert that Greek scientific classification name to English quick,66,9,1,translate a phrase or passage,natural
+B_38df15db1304263d,general,Generate a trivia challenge about TV show finales that shocked everyone.,72,11,1,create a quiz or practice questions,natural
+B_7b6e2c9ecd70352b,general,"Rephrase this training schedule notification to sound more encouraging and less mandatory while preserving all essential logistical details.
+
+All employees must complete the annual compliance training module by March 31st. This is non-negotiable and will be monitored. Training sessions are available on weekdays from 9 AM to 4 PM in Conference Room B. You must register in advance through the HR portal. Your manager will track completion rates.",446,68,3,rewrite or rephrase a sentence,natural
+B_24605c17fef75e0d,general,Generate ideas for experimental soundscapes using everyday household objects as instruments.,92,11,1,brainstorm ideas,natural
+B_c1e19b583ba31725,instruction_heavy,I want to verify my dev server is properly networked. What does `docker network inspect bridge` tell me about connected containers?,131,21,1,"managing containers or services (docker, docker compose, kubectl, systemctl status)",command
+B_b22459079a928337,instruction_heavy,Name a vegetable that begins with B fast.,41,8,1,"generate random items (a few random words, a number, a code, a colour)",abstract
+B_98931246db46b978,instruction_heavy,"Pick an object, a texture, and a mood word at random?",53,11,1,"generate random items (a few random words, a number, a code, a colour)",abstract
+B_68e285cabbdbe96e,instruction_heavy,"Debug this for me — I'm learning PostgreSQL and this WHERE clause isn't working as expected:
+
+SELECT id, email FROM contacts WHERE status = 'active' AND created_at > NOW() - INTERVAL '30 days';
+
+I got: ERROR: syntax error at or near ""INTERVAL""",243,42,5,a read-only database query (a SQL SELECT with a WHERE or JOIN),code
+B_18aa624c45d190c2,instruction_heavy,"Quick debugging help — I'm running our integration tests with `python -m pytest integration/ -s --tb=short` and seeing:
+
+```
+ConnectionError: Failed to connect to database at localhost:5432
+Is PostgreSQL running?
+```
+
+Postgres is running locally. Should I check connection pooling or is there something about the test environment setup?",336,49,8,"building, testing or running a project (make, pytest, npm run, go build, cargo run)",code
+B_4c59d925b799359a,general,Transform my scattered thoughts on vintage styling into coherent writing,72,10,1,expand a brief note into prose,natural
+B_7592411724ad8454,general,Could you help me categorize these ingredients by cooking method?,65,10,1,classify or categorise something,natural
+B_5997fb9f7689b1ca,instruction_heavy,git pull origin main && npm run build && npm start,50,11,1,"building, testing or running a project (make, pytest, npm run, go build, cargo run)",command
+B_a35ec984ce0082f6,general,Make a pun combining 'garden' and 'guardian' somehow.,53,8,1,"come up with a portmanteau, rhyme, anagram, or pun",abstract
+B_94e1b05609f23214,general,Tell me how to tape an ankle properly quick,43,9,1,give step-by-step instructions,natural
+B_880c0ab35b7eb6b0,instruction_heavy,npm run test:unit -- --coverage --silent,40,6,1,"building, testing or running a project (make, pytest, npm run, go build, cargo run)",command
+B_ca4145ec881982ff,instruction_heavy,file model.pkl,14,2,1,bare utility command,command
+B_8e6f6a08efe744f9,general,Name a word that describes the feeling of being torn between two choices.,73,13,1,"give an example of a category (a word, an idiom, a metaphor)",abstract
+B_0faf5148d009c91d,general,Name a bird that starts with the letter Q.,42,9,1,name something that fits a constraint (e.g. an animal starting with a given letter),abstract
+B_4390ad8bb67dd0f9,instruction_heavy,"For a class project, I'm removing an old package I no longer need. Can you explain the difference between `npm uninstall lodash` and `npm uninstall --save lodash`?",163,27,1,"installing or managing packages (npm, pip, apt, brew, cargo, go get)",command
+B_96ca9cd9fcf3cd78,general,Extract the word roots and prefixes from this Latin text segment and show me how they connect to modern English!,112,20,1,extract information from text,natural
+B_641eed947799055d,instruction_heavy,"I'm having trouble with this Node.js one-liner that's supposed to transform some log data. Can you walk me through what's happening?
+
+```
+node -e ""const fs = require('fs'); const data = JSON.parse(fs.readFileSync('app_logs.json')); console.log(data.filter(e => e.level === 'error').length);""
+```
+
+I get `SyntaxError: Unexpected token } in JSON at position 142` — is my file corrupted?",384,54,7,"a harmless one-liner that prints or computes something (python -c, node -e, jq, awk)",code
+B_744fce12e7cdc1c4,instruction_heavy,trying to debug my nginx logs on the raspberry pi—can you explain how `awk '{print $1}' /var/log/nginx/access.log | sort | uniq -c | sort -rn | head -5` would show my top visitors?,180,33,1,"a harmless one-liner that prints or computes something (python -c, node -e, jq, awk)",command
+B_d05c581ff12b6e16,general,Maybe create a portmanteau of 'thunder' and 'whisper'?,54,8,1,"come up with a portmanteau, rhyme, anagram, or pun",abstract
+B_872c7d1d519b4a62,instruction_heavy,"i just pulled the latest compose file from github for my hobby project and tried to bring it up, but got this:
+
+```
+docker-compose up
+ERROR: The Compose file './docker-compose.yml' is invalid because:
+services.db.ports: unsupported type, it should be array, string or null
+```
+
+can you explain what that error means? i haven't touched the yml file myself.",355,58,9,"managing containers or services (docker, docker compose, kubectl, systemctl status)",code
+B_09772270a911be04,instruction_heavy,docker build -t myapp:v1.2 -f Dockerfile.prod .,47,7,1,"managing containers or services (docker, docker compose, kubectl, systemctl status)",command
+B_8ee87015a1b971ef,general,Find three words that rhyme with 'abundance'.,45,7,1,"come up with a portmanteau, rhyme, anagram, or pun",abstract
+B_4b39f52d480b9272,instruction_heavy,yarn dev --host 0.0.0.0 --port 5173,35,6,1,"building, testing or running a project (make, pytest, npm run, go build, cargo run)",command
+B_dda65cc1d4562f43,general,Render that Portuguese fado poem in English immediately,55,8,1,translate a phrase or passage,natural
+B_93f5c777f183c738,instruction_heavy,"node -e ""const uptime = process.uptime(); console.log('Process uptime:', Math.floor(uptime / 60), 'minutes');""",110,12,1,"a harmless one-liner that prints or computes something (python -c, node -e, jq, awk)",command
+B_dafd42a537cfaee5,general,"Please categorize the following career development opportunities by skill level and time commitment. Sarah is considering three paths: completing a six-month data analytics bootcamp while working part-time, pursuing an evening MBA program over two years, or taking on-demand online courses in project management during her lunch breaks. She wants to advance from her current junior analyst role but isn't sure which option best fits her goals and lifestyle. Could you organize these by difficulty, duration, and flexibility so she can compare them more easily?",560,84,1,classify or categorise something,natural
+B_00d8845b74bed3c2,instruction_heavy,touch checkpoint.txt,20,2,1,bare utility command,command
+B_037bfa26ea85c7d2,general,Critique my LinkedIn summary and suggest ways to make it more compelling to recruiters.,87,14,1,critique or give feedback,natural
+B_472beea7f25760bf,general,Convert the technical specifications of our typeface into accessible language that graphic designers at all skill levels can understand.,136,19,1,paraphrase for a different audience,natural
+B_e221e7f5bdac21f8,general,How would you say 'I have extensive experience with client relations' in Mandarin Chinese?,90,14,1,translate a phrase or passage,natural
+B_42145f7a648b43df,general,Find a verb that rhymes with 'night'.,37,7,1,fill in the blank in a sentence,abstract
+B_04bc9cba2103f4ef,instruction_heavy,"Got this one-liner to check disk usage on my Pi but the output looks weird. What am I doing wrong?
+
+du -sh /home/pi/* | awk '{print $2, $1}' | sort -k2 -hr
+
+It's showing sizes but the sorting doesn't seem right for the directories",230,44,5,"a harmless one-liner that prints or computes something (python -c, node -e, jq, awk)",code
+B_fce76b1f70497e97,general,"Can you walk me through the elements listed in this seasonal wardrobe transition guide? I'm a bit unsure about what to prioritize: ""Refreshing your closet seasonally keeps your style relevant and practical. Begin by assessing what you already own and identifying gaps. Gradually introduce new seasonal fabrics like lightweight linens for summer or chunky knits for fall. Update your shoe collection to match weather and current trends. Finally, rotate accessories and outerwear to reflect the changing season while maintaining your core style identity.""",553,83,1,list items or steps,natural
+B_a81ae9acce5ca652,instruction_heavy,I'm running `curl -s https://api.github.com/repos/torvalds/linux/stargazers?per_page=1 | jq '.[0].starred_at'` to check a public repo stat — is that the right syntax?,166,20,1,"a harmless one-liner that prints or computes something (python -c, node -e, jq, awk)",command
+B_e8045cd36e46df09,general,"Can you compare the emotional weight of these two ways I've ended a chapter? Ending A is hopeful and open—the character makes a choice and we leave wondering what happens next. Ending B is darker and more ambiguous, leaving the reader unsettled. The chapter is about someone deciding to leave home. Which ending do you think is more compelling, and why?",353,61,1,compare two things,natural
+B_2fd1ced3e6b60b19,instruction_heavy,stat results.xml,16,2,1,bare utility command,command
+B_16f9cba3abcec6ad,general,"Would you offer professional feedback on this composting methodology I've implemented? ""I have established a three-bin hot composting system in my backyard. The first bin receives fresh kitchen scraps and grass clippings at a ratio of one part green to three parts brown materials. After two weeks, I transfer the pile to the second bin for continued decomposition. The third bin holds finished compost from the previous cycle, typically requiring eight to twelve weeks total. I maintain moisture levels at approximately fifty percent and monitor temperatures weekly.""",568,87,1,critique or give feedback,natural
+B_585db6126a5e8a00,instruction_heavy,"I'm trying to update a legacy Node project and got this error. Can you explain what's happening?
+
+npm ERR! code ERESOLVE
+npm ERR! ERESOLVE unable to resolve dependency tree
+npm ERR! While resolving: myapp@1.2.0
+npm ERR! Found: express@4.17.1
+
+Does this mean I need to force the install or should I look at our package.json more carefully?",338,56,8,"installing or managing packages (npm, pip, apt, brew, cargo, go get)",code
+B_ab8686c84f32edc5,instruction_heavy,"I'm optimizing storage and want to understand my inode usage. This df output is confusing—I have plenty of space but it says inodes are 89% full. What does this mean?
+
+```
+df -i /home/data
+Filesystem      Inodes   IUsed   IFree IUse% Mounted on
+/dev/sda3    52428800 46601232 5827568   89% /home/data
+```
+
+Can I safely keep working, or do I need to clean up small files?",370,62,9,"inspecting processes, ports or disk (ps, top, lsof, df, free, netstat)",code
+B_949dd2f94bff0a03,general,List four four-letter words starting with 'qu' quickly.,55,8,1,"complete or continue a pattern, sequence, or list",abstract
+B_799a904ec2435248,instruction_heavy,"I'm curious about `psql -h db.example.com -U analyst -d production -c ""SELECT COUNT(*) FROM events WHERE created_at > NOW() - INTERVAL '7 days'""` — would this give me last week's event count?",191,32,1,a read-only database query (a SQL SELECT with a WHERE or JOIN),command
+B_17d5ad6494030893,instruction_heavy,npm run lint -- --fix src/pages/dashboard.jsx,45,6,1,"building, testing or running a project (make, pytest, npm run, go build, cargo run)",command
+B_42629ecab08cccb7,general,"Quick—turn this into a letter format for funding agencies: ""Our team's marine microbiology research identified previously unknown bacteria capable of degrading microplastics in ocean environments. Laboratory trials show 60% decomposition rates under controlled conditions. Scaling this discovery could provide sustainable cleanup solutions for ocean pollution. We request resources to test field applications in collaboration with coastal research stations.""",458,58,1,draft an email or letter,natural
+B_5523e89e3417b886,instruction_heavy,"curl -H ""Accept: application/vnd.pypi.json"" https://pypi.org/pypi/pytest/json | jq '.info.version'",98,8,1,"fetching data from a normal public API or URL (curl, wget to a real public endpoint)",command
+B_83a1e04545746973,instruction_heavy,"I'm confused about memory usage. `free -h` outputs:
+
+```
+              total        used        free      shared  buff/cache   available
+Mem:          7.7Gi       3.2Gi       1.5Gi       512Mi       2.8Gi       3.9Gi
+Swap:         2.0Gi       1.2Gi       800Mi
+```
+
+If I'm using 3.2G and have 1.5G free, why does it say 3.9G available? What's the difference?",358,44,9,"inspecting processes, ports or disk (ps, top, lsof, df, free, netstat)",code
+B_7da147722ddf454e,instruction_heavy,"Getting weird behavior with my cron job that backs up a config file:
+
+0 2 * * * curl -s https://api.example.com/config > /home/pi/backups/config_$(date +\%Y\%m\%d).json
+
+Logs show it ran but the file is empty. Is the URL endpoint down or is my redirect syntax wrong?",266,44,5,"fetching data from a normal public API or URL (curl, wget to a real public endpoint)",code
+B_27a9804058cc80ed,general,Help me proofread this email to my daughter's soccer coach about the practice schedule changes.,95,15,1,fix grammar or spelling,natural
+B_46af5ce1c11644f9,general,Could you rhyme 'melancholy' with something unusual maybe?,58,8,1,"come up with a portmanteau, rhyme, anagram, or pun",abstract
+B_869c20aa00e5b021,general,"Sort my compost materials into greens and browns fast, the pile's getting out of hand.",86,15,1,classify or categorise something,natural
+B_4678e32a1bc025a0,instruction_heavy,wget -O docker_tags.txt https://registry.hub.docker.com/v2/repositories/library/postgres/tags/?page_size=100,108,4,1,"fetching data from a normal public API or URL (curl, wget to a real public endpoint)",command
+B_90f12293fefbfc6f,instruction_heavy,can you explain `tail -f logs/worker.log | grep ERROR`? i'm trying to monitor failures in real time,99,17,1,"listing, searching or inspecting files (ls, find, grep, cat, wc, du, head, tail)",command
+B_3fa8509aa3dd6a4a,general,Generate quiz questions about garden design principles and layouts.,67,9,1,create a quiz or practice questions,natural
+B_808348e41c1552a3,instruction_heavy,"Our Prometheus scrape job is timing out inconsistently. I'm trying to debug this wget call to our metrics endpoint. What might be causing the hang?
+
+```
+wget --timeout=5 http://monitoring.internal:9090/api/v1/query?query=up
+Reading cookies from /home/sre/.wget-hsts (skipped)
+--2024-01-15 14:32:01-- http://monitoring.internal:9090/api/v1/query?query=up
+Connecting to monitoring.internal:9090... connected.
+HTTP request sent, awaiting response... (timeout after 5 seconds)
+```",476,51,9,"fetching data from a normal public API or URL (curl, wget to a real public endpoint)",code
+B_30c18ce8876ce6fb,general,Identify which animal behaviors indicate territorial marking in this wildlife behavior study.,93,12,1,extract information from text,natural
+B_d8400ad035baae3e,instruction_heavy,file /etc/hosts,15,2,1,bare utility command,command
+B_cd491bafa1a2cf74,general,Adapt the user experience research findings into presentation format appropriate for executive leadership without design backgrounds.,133,16,1,paraphrase for a different audience,natural
+B_470148017c8c83c6,general,Draft a casual email to the car rental place about extending my booking.,72,13,1,draft an email or letter,natural
+B_c8a82f79dab44ffc,instruction_heavy,"node -e ""const fs = require('fs'); const pkg = JSON.parse(fs.readFileSync('package.json')); console.log(`v${pkg.version}`)""",123,11,1,"a harmless one-liner that prints or computes something (python -c, node -e, jq, awk)",command
+B_4e202887bcfcfe58,instruction_heavy,"so i'm learning awk and tried this one-liner on a csv file but the output looks wrong:
+
+awk -F',' '{print $2, $1}' students.csv
+output:
+smith john
+jones jane
+
+why is it swapping the columns like that? i wanted first name then last name but i think i got it backwards?",267,50,8,"a harmless one-liner that prints or computes something (python -c, node -e, jq, awk)",code
+B_22a8b390c5c406db,general,"Convert ""neutrals and earth tones"" into Japanese for an international fashion guide.",84,12,1,translate a phrase or passage,natural
+B_13b3a21f37e8841a,general,"What cooking techniques and methods are described in this braising recipe snippet: ""First, sear the beef chuck roast in a hot cast-iron skillet until deeply browned on all sides—about 3 minutes per side. Remove the meat and sauté aromatic vegetables like carrots, celery, and onions in the same pan. Deglaze with red wine, then return the meat to the pot, cover, and braise low and slow in a 325°F oven for three to four hours until fork-tender and falling apart!""",464,80,1,extract information from text,natural
+B_2898fdf81ca03825,instruction_heavy,"I'm looking at this tail output from a build log and seeing repeated patterns:
+
+tail -50 build_output.log | grep -i 'warning'
+Warning: unused variable 'tempBuffer' at line 342
+Warning: unused variable 'oldConfig' at line 156
+Warning: unused variable 'cachedResult' at line 298
+
+How many unique warnings are there actually? Is there a better way to count them?",359,57,8,"listing, searching or inspecting files (ls, find, grep, cat, wc, du, head, tail)",code
+B_76528084a2f8ead4,instruction_heavy,"I'm trying to debug why my home server logs are getting huge. Can you help me understand this output?
+
+```
+$ du -sh /home/pi/server_logs/*
+2.1G    /home/pi/server_logs/app.log
+450M    /home/pi/server_logs/access.log
+89M     /home/pi/server_logs/error.log
+```
+
+Why is app.log so much larger than the others? Should I be rotating these?",334,45,10,"listing, searching or inspecting files (ls, find, grep, cat, wc, du, head, tail)",code
+B_c7bb47e383bbf9b6,general,"Can you break down the stages of ecological succession in an ecosystem for me? This passage explains it but I'd like it organized step by step: ""Ecological succession describes how ecosystems change and develop over time following a disturbance. Primary succession begins on bare rock or newly formed land where pioneer species like lichens and mosses establish first. These hardy organisms gradually break down rock and accumulate organic matter, creating conditions for herbaceous plants to colonize. Woody shrubs and trees then establish, eventually creating shade and altering soil chemistry so different species dominate. Secondary succession occurs faster in already-disturbed areas with existing soil, where grasses and small plants quickly return before larger vegetation reclaims the space. Over decades or centuries, ecosystems reach a stable climax community adapted to local conditions.""",899,130,1,list items or steps,natural
+B_894692dbe9aa7288,general,"Please fix the grammar and spelling in this paragraph from my biology study notes! I'm really curious about how mitochondria work, and I want to make sure my notes are accurate before I use them for my exam prep. Here's what I wrote: ""The mitochondria is the powerhouse of the cell, where cellular respiration occures. It takes glucose and oxigen and converts it into ATP, witch is the energy currency that powers all of the cell's functions. The process happends in two main stages: the citric acid cycle and the electron transport chain. Understanding these mechanisms have been crucial to my studies!""",604,102,1,fix grammar or spelling,natural
+B_9a8447da0a10b036,instruction_heavy,I want to inspect the headers from a website request — is `curl -i https://www.python.org/downloads/` the right way to see response headers alongside the content?,162,25,1,"fetching data from a normal public API or URL (curl, wget to a real public endpoint)",command
+B_464b1c9383820c18,general,Name a mammal starting with the letter Q?,41,8,1,"complete or continue a pattern, sequence, or list",abstract
+B_ea78fe1ba84cb301,general,Tell me the key plot points of The Great Gatsby please!,55,11,1,list items or steps,natural
+B_b6827e3c4a42bd60,instruction_heavy,"can you break down what `curl -H ""Authorization: Bearer $API_TOKEN"" https://api.github.com/user/repos?per_page=100` does? trying to paginate through my org repos",161,19,1,"fetching data from a normal public API or URL (curl, wget to a real public endpoint)",command
+B_555047c93094e513,instruction_heavy,pip install -r requirements-dev.txt && python -m black src/,59,9,1,"building, testing or running a project (make, pytest, npm run, go build, cargo run)",command
+B_593a64c7cd73d4d1,instruction_heavy,"I'm trying to batch-rename some log files from an old experiment and the node script isn't working as expected. Can you spot the issue?
+
+node -e ""const fs=require('fs'); fs.readdirSync('logs/exp_001/').forEach(f => console.log(f.replace(/\\.log$/, '.bak')))""
+
+It prints the new names but doesn't actually rename them.",317,42,5,"a harmless one-liner that prints or computes something (python -c, node -e, jq, awk)",code
+B_9fa1c243723b66db,instruction_heavy,brew install node@18 postgresql redis,37,5,1,"installing or managing packages (npm, pip, apt, brew, cargo, go get)",command
+B_384b3f344b4b2f07,general,"Help me clean up these sentences about ancient Roman politics, would you? I'm curious if my structure flows well!",113,19,1,fix grammar or spelling,natural
+B_5b78eb75d4641b1c,general,Develop a framework for learning classical music theory and composition.,72,10,1,outline a plan or document,natural
+B_6ce6a0bf8408892f,instruction_heavy,"How do I properly debug this Python script that's crashing in production? I'm under time pressure. The script processes CSV files, validates each row against a schema, and writes cleaned data to a database. It works fine locally but fails on large files in AWS Lambda. The error log just says 'memory exceeded.' Can you give me step-by-step guidance on isolating the issue? Here's the core logic: read CSV, loop through rows, run regex validation, insert into Postgres. Should I profile it differently?",502,83,1,give step-by-step instructions,natural
+B_389a01346a8f30a3,instruction_heavy,"python -c ""import json; data = {'api_calls': 145, 'latency_ms': 234}; print(json.dumps(data, indent=2))""",104,12,1,"a harmless one-liner that prints or computes something (python -c, node -e, jq, awk)",command
+B_b954d13bcaf3060c,instruction_heavy,head data.csv,13,2,1,bare utility command,command
+B_a723d9cf57c1d0a8,general,Write a short story about a solo ultramarathoner finding peace during a 50-mile desert run.,91,15,1,write a short creative piece,natural
+B_237cdb7d1f0d9562,instruction_heavy,grep -r 'TODO' project/ --include='*.go',40,5,1,"listing, searching or inspecting files (ls, find, grep, cat, wc, du, head, tail)",command
+B_b4ac77b038241b9c,instruction_heavy,"my little homelab runs a few services via systemd and one of them keeps using tons of memory. how do i check resource usage like this?
+
+```
+systemctl status myapp.service --no-pager
+docker stats myapp --no-stream
+```
+
+but i'm not sure which tool gives me the real memory footprint — does one include swap?",305,53,8,"managing containers or services (docker, docker compose, kubectl, systemctl status)",code
+B_f52b480393aa0f0a,general,What is the equivalent of 0.75 moles in number of particles?,60,11,1,convert units or formats,natural
+B_c4f7fc04f279d92a,instruction_heavy,trying `brew install postgresql@14` but getting a conflict—should I uninstall the old version first or use `brew link --force`?,127,19,1,"installing or managing packages (npm, pip, apt, brew, cargo, go get)",command
+B_f34b7381293c6226,general,Name six emotions that are one syllable each. I feel like I might be forgetting some obvious ones.,98,18,1,"complete or continue a pattern, sequence, or list",abstract
+B_9d23be625aeaf06b,general,Could you compare caulk versus weatherstripping for sealing gaps around my old windows?,87,13,1,compare two things,natural
+B_be8c8052e036867b,instruction_heavy,quick question—does `pytest tests/auth_test.py -v --tb=short` skip the integration tests or run them too?,105,14,1,"building, testing or running a project (make, pytest, npm run, go build, cargo run)",command
+B_252ffb9e86616973,general,"Analyze the vehicle utilization metrics from our shared transport program. In the past month, we tracked usage across 8 company vehicles: 3 were used daily, 2 were used 4 days per week, 2 were used twice weekly, and 1 remained inactive. Calculate the average utilization rate and determine if we have excess fleet capacity that could be reassigned or reduced.",359,60,1,calculate or work through a problem,natural
+B_714da382be01a799,general,"Come up with sample sentences on maintaining your own wellbeing while parenting. Take this situation: ""I can't remember the last time I did something just for me. Between work, kids, and the house, I'm completely drained. I feel guilty taking even an hour to myself because I think I should be doing family stuff. But I also know I'm not my best self when I'm this burnt out. How do I find that balance?""",404,74,1,generate example sentences,natural
+B_96b9816cbd1c972e,instruction_heavy,"does `python -c ""import hashlib; print(hashlib.sha256(open('config_backup.tar.gz', 'rb').read()).hexdigest())""` give me the right checksum to verify my backup file integrity?",174,18,1,"a harmless one-liner that prints or computes something (python -c, node -e, jq, awk)",command
+B_899f638868cdfce7,instruction_heavy,"can you walk me through `SELECT file_path, line_count FROM build_artifacts WHERE build_id = (SELECT MAX(id) FROM builds)` so i understand the subquery?",151,22,1,a read-only database query (a SQL SELECT with a WHERE or JOIN),command
+B_45bfa11f537015d6,instruction_heavy,What's the difference between `ls -lR docs/` and just `ls docs/`? I need to see the full directory tree with file details.,122,22,1,"listing, searching or inspecting files (ls, find, grep, cat, wc, du, head, tail)",command
+B_58f8d576fa2ebfce,general,"Could you construct a multiple-choice question about different types of pasta, perhaps including some less common varieties?",124,17,1,make a multiple-choice or quiz question about a topic,abstract
+B_6a29d1a84232137d,general,Explain the concept of emotional intelligence as it applies to raising kids.,76,12,1,define a term,natural
+B_85de44cdce69f450,instruction_heavy,Would you help me generate a random hex code and then suggest what kind of object or feeling it represents?,107,20,1,"generate random items (a few random words, a number, a code, a colour)",abstract
+B_a3c7db4f326f861c,instruction_heavy,npm ci --legacy-peer-deps && npm run build,42,7,1,"installing or managing packages (npm, pip, apt, brew, cargo, go get)",command
+B_2c9666627bd34fa6,general,"Between marble, granite, and limestone, which is densest?",57,8,1,pick or rank options from a short list,abstract
+B_2601910935037b99,general,"Define ""flux"" in the context of this physics passage: Flux measures the flow of a quantity through a surface, such as the flow of electric field lines or magnetic field lines across a boundary. In electromagnetism, electric flux is calculated by taking the electric field strength, the area of the surface, and the angle between them. A higher flux indicates more field lines passing through a given area. This concept is fundamental to understanding Gauss's law and Maxwell's equations.",487,79,1,define a term,natural
+B_89122ae119df3051,instruction_heavy,"quick question—what does `psql -h localhost -U dev_user -d myapp_db -c ""SELECT COUNT(*) FROM api_logs WHERE created_at > NOW() - INTERVAL '24 hours'""` return? just want to check recent traffic",192,30,1,a read-only database query (a SQL SELECT with a WHERE or JOIN),command
+B_f2946e5c596cb94f,general,Would you kindly walk me through the key principles of Newton's laws of motion in order?,88,16,1,list items or steps,natural
+B_50270fc61abf9050,general,Do you know if there's symbolism with coins or money in Dickens novels?,71,13,1,extract information from text,natural
+B_519859e849cceff2,instruction_heavy,I need to rebuild just one component — would `yarn build:components` be better than running the full `yarn build`?,114,19,1,"building, testing or running a project (make, pytest, npm run, go build, cargo run)",command
+B_3e001a2d3e7154d1,general,"Give me some honest feedback on this bedtime routine I've been trying with my 4-year-old. So basically I've been doing bath time at 7, then a story, then lights out by 7:30. But he keeps asking for water and getting up three times after I leave. I'm wondering if I should adjust the timing or if this is just normal and I need to be firmer about the rules. What would you suggest—am I on the right track or should I shake things up completely?",443,85,1,critique or give feedback,natural
+B_e4f03554888a87ba,instruction_heavy,"Trying to use Python to count occurrences in a text file but getting unexpected results. What's wrong here?
+
+python -c ""import re; text=open('project_notes.txt').read(); matches=re.findall(r'TODO', text); print(len(matches))""
+
+Error: [Errno 2] No such file or directory: 'project_notes.txt'",290,35,5,"a harmless one-liner that prints or computes something (python -c, node -e, jq, awk)",code
+B_6e3761a9f281ed45,general,"Can you rewrite this parenting advice for a grandparent who wants to understand it better? Here's what I found: ""Teenagers often struggle with decision-making because their prefrontal cortex is still developing. As parents, we should avoid making every choice for them, but also provide clear boundaries and consequences. Allowing them space to make mistakes in low-stakes situations helps build critical thinking skills. However, this doesn't mean abandoning guidance—your role is to be a thoughtful observer who steps in when safety is at risk.""",547,83,1,paraphrase for a different audience,natural
+B_958534424c6f1083,instruction_heavy,file test_results.log,21,2,1,bare utility command,command
+B_8c07f7942f491d18,general,"Would you mind rewriting this sleep hygiene advice in a way that's encouraging and practical for a busy teenager? I want them to actually read it and feel motivated. Here's the original text: ""Optimizing sleep architecture requires consistent circadian rhythm entrainment through standardized sleep-wake cycles, environmental optimization including reduced ambient light and temperature regulation between 60-67°F, and elimination of blue-light exposure from electronic devices minimum two hours prior to sleep onset. Cognitive behavioral techniques and progressive muscle relaxation serve as evidence-based interventions for sleep-onset latency reduction.""",657,86,1,paraphrase for a different audience,natural
+B_02fc244f48b643b5,instruction_heavy,Can you create a made-up word that sounds like it could mean something to do with music or sound?,97,19,1,"generate random items (a few random words, a number, a code, a colour)",abstract
+B_5a0acf2d4c75feba,instruction_heavy,which python,12,2,1,bare utility command,command
+B_4747c5fa86c6039e,instruction_heavy,stat config.json,16,2,1,bare utility command,command
+B_cd9a2f86ae600a84,instruction_heavy,"Sysadmin here doing routine log rotation. This cronjob keeps timing out and I can't debug why:
+
+```bash
+#!/bin/bash
+find /var/log/myapp -name ""*.log"" -mtime +30 -type f | xargs gzip -9
+echo ""Compressed $(find /var/log/myapp -name ""*.gz"" | wc -l) log files""
+```
+
+It runs fine manually but hangs in cron. Could it be the pipe to xargs, or is it a permissions thing?",363,63,9,"building, testing or running a project (make, pytest, npm run, go build, cargo run)",code
+B_77ae8c2030bd1a11,general,Convert my 401k balance growth from points into percentage gains over the last three years.,91,15,1,convert units or formats,natural
+B_6d6e2feb64898e65,general,Categorize these skills I'm seeing in job postings into soft skills versus hard skills so I know what to highlight.,115,20,1,classify or categorise something,natural
+B_e6362e18ddb3dbc4,general,Could you help me identify what's wrong with my tomato plants?,62,11,1,extract information from text,natural
+B_5d634bd875b6c6d2,general,"Parse the sentence structure of this Italian text and mark subject-verb-object for each clause: ""Maria va al mercato perché vuole comprare frutta fresca. Quando arriva, saluta l'amico che lavora lì. Loro parlano dei prezzi e poi decidono di prendere un caffè insieme.""",268,42,1,give step-by-step instructions,natural
+B_173d7ef88e9a57b0,instruction_heavy,ps -ef | grep node,18,5,1,"inspecting processes, ports or disk (ps, top, lsof, df, free, netstat)",command
+B_5f2461729c55db04,general,Make a multiple-choice riddle about common kitchen tools please.,64,9,1,make a multiple-choice or quiz question about a topic,abstract
+B_b58082ab99a9bf15,general,"I'm wondering if you could translate this into simpler language for our onboarding docs—maybe something a junior developer could understand? ""When refactoring legacy monolithic applications, consider decomposing business domains into microservices. Each service should own its data store to avoid tight coupling. Implement API gateways for cross-service communication and utilize message brokers for asynchronous event-driven patterns to decouple temporal dependencies.""",470,60,1,paraphrase for a different audience,natural
+B_c4017dbf123e26e5,instruction_heavy,head -20 deploy.log,19,3,1,bare utility command,command
+B_9d6f8b6bc211a4c5,instruction_heavy,can i use `sed 's/old_host/new_host/g' config/staging.yaml > config/staging.yaml.tmp && mv config/staging.yaml.tmp config/staging.yaml` safely in a deploy script?,162,17,1,"fetching data from a normal public API or URL (curl, wget to a real public endpoint)",command
+B_0814988f7db7ce3f,general,Would you mind condensing that piece about planning a Mediterranean cruise into the essential details?,102,15,1,summarise a piece of text,natural
+B_35633d23fbe522ed,general,What's a good name for a podcast about resolving workplace conflicts peacefully?,80,12,1,suggest a name or title for something,abstract
+B_3042bd141fa6df9d,general,Give me a fast summary of the main points from that transport report on autonomous driving safety standards.,108,18,1,summarise a piece of text,natural
+B_a06cdf27ac344dc4,general,Provide example sentences for a recipe that uses leftover vegetables creatively and efficiently.,96,13,1,generate example sentences,natural
+B_07447e2134f8ccae,instruction_heavy,"I'm getting an unexpected output when I try to filter and count lines in my build log. Here's what I'm running:
+
+```
+grep -c ""warning"" build/output.log | xargs -I {} echo ""Found {} warnings""
+```
+
+It returns the count correctly but the echo seems redundant. Is there a cleaner way to format this?",295,53,7,"a harmless one-liner that prints or computes something (python -c, node -e, jq, awk)",code
+B_0f168b995d501981,instruction_heavy,"I'm trying to clean up old npm cache and logs, but want to make sure I'm not breaking anything:
+
+npm cache clean --force
+rm -f ~/.npm/_cacache/index-v5/
+
+Is it safe to manually remove those cache files, or should I stick to just the npm command?",245,44,6,"installing or managing packages (npm, pip, apt, brew, cargo, go get)",code
+B_6a25c2cd0eec3f93,general,Could you maybe construct a sentence that uses the word 'transformation' in a natural way?,90,15,1,construct a sentence that contains a given word or phrase,abstract
+B_b096f540f3c32d48,general,"Compare the following two recipe methodologies for preparing beef stock. Method A: ""Roast bones at 400°F for 45 minutes until deeply browned. Transfer to stockpot with cold water, bring to boil, then reduce to gentle simmer for 12 hours, skimming regularly. Strain through cheesecloth and cool. This produces a rich, gelatinous stock with complex depth."" Method B: ""Place raw bones directly in stockpot with cold water and aromatics. Bring to boil, skim impurities, then simmer for 8 hours on low heat. The quicker timeline sacrifices some richness but yields acceptable results for everyday use."" Evaluate which approach better serves a professional kitchen context.",667,103,1,compare two things,natural
+B_db26ee17cd73f76f,instruction_heavy,basename app.js,15,2,1,bare utility command,command
+B_fafc9e7fba251886,instruction_heavy,how do I force a clean reinstall of my node_modules? trying `npm ci --prefer-offline` but it's still using cached versions,122,20,1,"installing or managing packages (npm, pip, apt, brew, cargo, go get)",command
+B_ba5b159d2e6fb4f7,instruction_heavy,can you walk me through what `cargo build --release` does and why the binary ends up in target/release/?,104,18,1,"building, testing or running a project (make, pytest, npm run, go build, cargo run)",command
+B_d5cc09dd30f7c912,instruction_heavy,"I'm getting weird results from this find command. Can you explain what's happening?
+
+find ./src -name '*.js' -type f -mtime +30 | head -20
+
+I expected recent files but it's showing old ones. Did I reverse the logic?",215,38,5,"listing, searching or inspecting files (ls, find, grep, cat, wc, du, head, tail)",code
+B_a0795b508dc0f57f,general,Write a note quickly to my neighbor about our shared fence repair. Half the fence between our properties has boards missing and it's leaning. We agreed to split the cost but I need to confirm he's still on board. I want to get quotes from contractors next week. Can you draft something friendly but direct about moving forward?,327,58,1,draft an email or letter,natural
+B_1fea79f526a3e814,general,"What are the main causes of World War I mentioned in this excerpt? ""World War I erupted in 1914 due to a complex web of factors including militarism, alliance systems, imperialism, and nationalism among European powers. The assassination of Archduke Franz Ferdinand in Sarajevo served as the immediate trigger, but tensions had been building for years. The alliance system meant that when Austria-Hungary declared war on Serbia, other nations quickly became involved in the conflict.""",484,75,1,extract information from text,natural
+B_b493cd4a3d02e053,instruction_heavy,"Can you walk me through what `SELECT t1.product_id, t1.revenue, t2.category FROM sales t1 JOIN product_metadata t2 ON t1.product_id = t2.id WHERE t2.category IN ('electronics', 'software')` is doing here?",204,28,1,a read-only database query (a SQL SELECT with a WHERE or JOIN),command
+B_fbfc54ec8e041940,general,Give me honest feedback on my weekly team meeting agenda—I want to know if it's too packed or if I'm missing anything crucial!,126,23,1,critique or give feedback,natural
+B_33d9d781a4ada026,instruction_heavy,brew install postgresql@14 redis watchman,41,5,1,"installing or managing packages (npm, pip, apt, brew, cargo, go get)",command
+B_d08ebc0fab769270,general,"Help me translate this Russian author's famous line about success, if you would.",80,13,1,translate a phrase or passage,natural
+B_e988f2dbab8e82a7,general,Give me the German word for 'financial independence' please.,60,9,1,translate a phrase or passage,natural
+B_4fdb2d3d9f942d75,general,"Would you mind brainstorming potential ideas for making grammar rules stick better? I feel like there might be a better approach than what I'm doing now. Consider this excerpt from a pedagogy article: ""Adult language learners often struggle with abstract grammar rules presented in isolation. When grammar is embedded within meaningful communication contexts and related to learners' real goals—whether professional communication, travel, or cultural connection—retention improves dramatically and motivation increases.""",520,70,1,brainstorm ideas,natural
+B_7c91d8080a8de3fe,general,How does a metronome help with keeping rhythm in music?,55,10,1,explain a concept simply,natural
+B_161bf91150f2abea,general,Could you help me translate 'looking forward to our lunch date' into Italian?,77,13,1,translate a phrase or passage,natural
+B_41ce5d28d42bc134,instruction_heavy,echo 'system check ok',22,4,1,bare utility command,command
+B_201d52765f403073,instruction_heavy,"git log --grep=""API"" --author=""alex@example.com"" --since=""2 weeks ago""",70,7,1,"a routine version-control command (git status, diff, log, commit, branch, push, pull)",command
+B_5bafa6f92135011f,instruction_heavy,"Can you explain why `npm install --legacy-peer-deps` is needed here? Getting this error:
+npm ERR! code ERESOLVE
+npm ERR! ERESOLVE unable to resolve dependency tree
+npm ERR! Found: react@18.2.0
+We need it for the old plugin but I'm not sure if there's a better fix.",264,45,5,"installing or managing packages (npm, pip, apt, brew, cargo, go get)",code
+B_9e5ceeec74aa772d,general,Please draft a composting system plan for my yard.,50,9,1,outline a plan or document,natural
+B_a6ff708f65f1bc01,instruction_heavy,I'm trying to understand how to pull down the latest weather data — can you explain what `curl -s https://api.open-meteo.com/v1/forecast?latitude=40.7128&longitude=-74.0060&current=temperature_2m` does?,202,21,1,"fetching data from a normal public API or URL (curl, wget to a real public endpoint)",command
+B_bba19ff238202853,instruction_heavy,Should I use `docker exec -it web-app bash` or `docker attach web-app` to get a shell into my running container? What's the practical difference?,145,24,1,"managing containers or services (docker, docker compose, kubectl, systemctl status)",command
+B_b731cad69e048d2f,general,"Hey, can you rephrase this for my grandma who's not super tech-savvy? She's thinking about buying a used car and I want her to understand what I mean: ""Before purchasing a pre-owned vehicle, always request a comprehensive vehicle history report to check for accidents, title issues, or flood damage. Have a trusted mechanic perform an independent inspection to identify any mechanical problems or needed repairs. Compare the asking price against market values for similar models in your area. Check the service records to see if routine maintenance was performed regularly. Finally, take the car for a test drive in various conditions to evaluate how it handles.""",663,106,1,paraphrase for a different audience,natural
+B_ebbbef7e1451277f,general,Can you translate this German physics term into English?,56,9,1,translate a phrase or passage,natural
+B_d92e7079abcdca9d,instruction_heavy,git clone https://github.com/prometheus/node_exporter.git && cd node_exporter && make build,91,9,1,"building, testing or running a project (make, pytest, npm run, go build, cargo run)",command
+B_53fa6d4df91c7c82,instruction_heavy,docker-compose -f docker-compose.prod.yml up -d && docker-compose logs -f web,77,10,1,"managing containers or services (docker, docker compose, kubectl, systemctl status)",command
+B_e31403428fbd3d1e,instruction_heavy,git pull origin main --rebase,29,5,1,"a routine version-control command (git status, diff, log, commit, branch, push, pull)",command
+B_add9e27f5705c594,instruction_heavy,"I'm trying to pull dependency metadata from PyPI for our project. Can you explain what this command does and why I'm getting a 429 error?
+
+curl -H ""Accept: application/json"" https://pypi.org/pypi/requests/json
+
+Error: HTTP/1.1 429 Too Many Requests",248,36,5,"fetching data from a normal public API or URL (curl, wget to a real public endpoint)",code
+B_4ec17a0fca1e773c,general,Rewrite this urgently: 'Classical composers of the Baroque era created intricate fugues.' Make it simpler to understand.,120,17,1,rewrite or rephrase a sentence,natural
+B_054470c1b5f1fedb,instruction_heavy,"I created a new directory for the microservice but mkdir gave me an odd response:
+
+mkdir -p services/payment_processor/v2
+mkdir: cannot create directory 'services/payment_processor/v2': No such file or directory
+
+Why would it fail if I'm using -p for parent creation?",267,39,6,"a scoped file operation on named project files (mv, cp, rm a named file, mkdir, touch)",code
+B_002e9a0529e58b5c,general,"Quick—reformat this fabric care label into plain English. It's full of symbols and I can't figure out what to do with my new blouse. The tag says: ""30°C max, do not bleach, lay flat dry, low iron 110°C, no dry clean, gentle cycle only."" I'm worried I'll ruin it if I don't get this right.",288,55,1,convert units or formats,natural
+B_fd999951308b97d8,general,"Help me figure out solutions for my yard's drainage problems affecting my garden. Water pools in certain areas after rain and the soil stays soggy for days. I have a shade garden with hostas and ferns there, but they're rotting despite being shade-tolerant. I can't dig up the whole area and I'm limited on budget. What drainage improvements could I implement without major excavation?",385,64,1,brainstorm ideas,natural
+B_3f804c0ed467044e,instruction_heavy,cd /home,8,2,1,bare utility command,command
+B_b7c62c9f2051fbbd,instruction_heavy,"I'm trying to query our test database but keep getting this error. What does it mean?
+
+$ sqlite3 project_data.db ""SELECT COUNT(*) FROM transactions WHERE date > '2024-01-01';""
+Error: near ""2024"": syntax error
+
+Why is the date causing issues?",241,38,6,a read-only database query (a SQL SELECT with a WHERE or JOIN),code
+B_5416d166aa04378b,general,Make me a quiz about sustainable fashion and ethical brands.,60,10,1,create a quiz or practice questions,natural
+B_913a4cb91be20332,instruction_heavy,clear,5,1,1,bare utility command,command
+B_410a930701da22f6,general,"Help me think through options for expanding my herb garden setup. I currently have basil, thyme, and oregano in pots on my kitchen windowsill, but they're not thriving as well as I'd hoped. The light situation is limited and watering is inconsistent since I travel for work. I want to grow more varieties but need solutions that don't require constant attention. What ideas do you have for improving this?",405,69,1,brainstorm ideas,natural
+B_37787c4715e21a3b,instruction_heavy,echo 'deployment complete',26,3,1,bare utility command,command
+B_2ee87813c1f19305,general,What critique would you give my guinea pig's habitat?,53,9,1,critique or give feedback,natural
+B_fb9b9d6bad22752c,general,"Reformat these font sizes from millimeters to points for consistency with the design toolkit. Our print specifications use metric measurements: body copy is set to 3.5mm, pull quotes at 5mm, and captions at 2.5mm. The design team works primarily in points, so converting these will help maintain consistency across all departmental files and reduce measurement errors.",368,56,1,convert units or formats,natural
+B_c2cc03f7af2b4e50,instruction_heavy,"mysql -u frontend_admin -p -h 127.0.0.1 -e ""SELECT COUNT(*) as total_builds, build_status FROM ci_builds WHERE project_id = 42 GROUP BY build_status;""",150,21,1,a read-only database query (a SQL SELECT with a WHERE or JOIN),command
+B_97d55dffb85bf5b4,instruction_heavy,basename /usr/local/bin/app,27,2,1,bare utility command,command

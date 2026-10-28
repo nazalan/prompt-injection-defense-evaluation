@@ -1,0 +1,9 @@
+defender_scenario,attack_cost_mode,strategy_id,strategy_name,defense_id,attacker_payoff,defender_payoff
+Balanced,free_prompt_creation,S1,Fake Directive Manipulation,D3,0.14814814814814814,0.2243473997890774
+Balanced,pay_per_execution,S3,Context Hijacking,D3,0.14285714285714285,0.16721817144573206
+Security heavy,free_prompt_creation,S1,Fake Directive Manipulation,D3,0.14814814814814814,0.4455070332278721
+Security heavy,pay_per_execution,S3,Context Hijacking,D3,0.14285714285714285,0.36932337143715177
+False positive heavy,free_prompt_creation,S1,Fake Directive Manipulation,D3,0.14814814814814814,0.16447267105392932
+False positive heavy,pay_per_execution,S3,Context Hijacking,D3,0.14285714285714285,0.12162574979642031
+Cost heavy,free_prompt_creation,S2,Stealthy Dependency Injection,D0,0.8571428571428571,-0.012748541679734049
+Cost heavy,pay_per_execution,S2,Stealthy Dependency Injection,D0,0.8479164618761595,-0.012748541679734049

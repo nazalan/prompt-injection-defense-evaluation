@@ -1,0 +1,65 @@
+defender_scenario,attack_cost_mode,player,opponent_action,best_responses,best_payoff
+balanced,free_prompt_creation,attacker,D0,"[""S2: Stealthy Dependency Injection""]",0.8571428571428571
+balanced,free_prompt_creation,attacker,D1,"[""S3: Context Hijacking""]",0.8
+balanced,free_prompt_creation,attacker,D2,"[""S2: Stealthy Dependency Injection""]",0.75
+balanced,free_prompt_creation,attacker,D3,"[""S3: Context Hijacking""]",0.5
+balanced,free_prompt_creation,attacker,D4,"[""S3: Context Hijacking""]",1.0
+balanced,free_prompt_creation,defender,S1: Fake Directive Manipulation,"[""D3""]",0.2218651321418235
+balanced,free_prompt_creation,defender,S2: Stealthy Dependency Injection,"[""D2""]",0.1145236535540895
+balanced,free_prompt_creation,defender,S3: Context Hijacking,"[""D3""]",0.213238407940304
+balanced,pay_per_execution,attacker,D0,"[""S2: Stealthy Dependency Injection""]",0.843168841025525
+balanced,pay_per_execution,attacker,D1,"[""S3: Context Hijacking""]",0.8
+balanced,pay_per_execution,attacker,D2,"[""S2: Stealthy Dependency Injection""]",0.7360259838826679
+balanced,pay_per_execution,attacker,D3,"[""S3: Context Hijacking""]",0.5
+balanced,pay_per_execution,attacker,D4,"[""S3: Context Hijacking""]",1.0
+balanced,pay_per_execution,defender,S1: Fake Directive Manipulation,"[""D3""]",0.2218651321418235
+balanced,pay_per_execution,defender,S2: Stealthy Dependency Injection,"[""D2""]",0.1145236535540895
+balanced,pay_per_execution,defender,S3: Context Hijacking,"[""D3""]",0.213238407940304
+cost_heavy,free_prompt_creation,attacker,D0,"[""S2: Stealthy Dependency Injection""]",0.8571428571428571
+cost_heavy,free_prompt_creation,attacker,D1,"[""S3: Context Hijacking""]",0.8
+cost_heavy,free_prompt_creation,attacker,D2,"[""S2: Stealthy Dependency Injection""]",0.75
+cost_heavy,free_prompt_creation,attacker,D3,"[""S3: Context Hijacking""]",0.5
+cost_heavy,free_prompt_creation,attacker,D4,"[""S3: Context Hijacking""]",1.0
+cost_heavy,free_prompt_creation,defender,S1: Fake Directive Manipulation,"[""D0""]",-0.0466783764844729
+cost_heavy,free_prompt_creation,defender,S2: Stealthy Dependency Injection,"[""D0""]",-0.040363965900589
+cost_heavy,free_prompt_creation,defender,S3: Context Hijacking,"[""D0""]",0.0
+cost_heavy,pay_per_execution,attacker,D0,"[""S2: Stealthy Dependency Injection""]",0.843168841025525
+cost_heavy,pay_per_execution,attacker,D1,"[""S3: Context Hijacking""]",0.8
+cost_heavy,pay_per_execution,attacker,D2,"[""S2: Stealthy Dependency Injection""]",0.7360259838826679
+cost_heavy,pay_per_execution,attacker,D3,"[""S3: Context Hijacking""]",0.5
+cost_heavy,pay_per_execution,attacker,D4,"[""S3: Context Hijacking""]",1.0
+cost_heavy,pay_per_execution,defender,S1: Fake Directive Manipulation,"[""D0""]",-0.0466783764844729
+cost_heavy,pay_per_execution,defender,S2: Stealthy Dependency Injection,"[""D0""]",-0.040363965900589
+cost_heavy,pay_per_execution,defender,S3: Context Hijacking,"[""D0""]",0.0
+false_positive_heavy,free_prompt_creation,attacker,D0,"[""S2: Stealthy Dependency Injection""]",0.8571428571428571
+false_positive_heavy,free_prompt_creation,attacker,D1,"[""S3: Context Hijacking""]",0.8
+false_positive_heavy,free_prompt_creation,attacker,D2,"[""S2: Stealthy Dependency Injection""]",0.75
+false_positive_heavy,free_prompt_creation,attacker,D3,"[""S3: Context Hijacking""]",0.5
+false_positive_heavy,free_prompt_creation,attacker,D4,"[""S3: Context Hijacking""]",1.0
+false_positive_heavy,free_prompt_creation,defender,S1: Fake Directive Manipulation,"[""D3""]",0.1638607780403778
+false_positive_heavy,free_prompt_creation,defender,S2: Stealthy Dependency Injection,"[""D2""]",0.0858927401655671
+false_positive_heavy,free_prompt_creation,defender,S3: Context Hijacking,"[""D3""]",0.1573907348892382
+false_positive_heavy,pay_per_execution,attacker,D0,"[""S2: Stealthy Dependency Injection""]",0.843168841025525
+false_positive_heavy,pay_per_execution,attacker,D1,"[""S3: Context Hijacking""]",0.8
+false_positive_heavy,pay_per_execution,attacker,D2,"[""S2: Stealthy Dependency Injection""]",0.7360259838826679
+false_positive_heavy,pay_per_execution,attacker,D3,"[""S3: Context Hijacking""]",0.5
+false_positive_heavy,pay_per_execution,attacker,D4,"[""S3: Context Hijacking""]",1.0
+false_positive_heavy,pay_per_execution,defender,S1: Fake Directive Manipulation,"[""D3""]",0.1638607780403778
+false_positive_heavy,pay_per_execution,defender,S2: Stealthy Dependency Injection,"[""D2""]",0.0858927401655671
+false_positive_heavy,pay_per_execution,defender,S3: Context Hijacking,"[""D3""]",0.1573907348892382
+security_heavy,free_prompt_creation,attacker,D0,"[""S2: Stealthy Dependency Injection""]",0.8571428571428571
+security_heavy,free_prompt_creation,attacker,D1,"[""S3: Context Hijacking""]",0.8
+security_heavy,free_prompt_creation,attacker,D2,"[""S2: Stealthy Dependency Injection""]",0.75
+security_heavy,free_prompt_creation,attacker,D3,"[""S3: Context Hijacking""]",0.5
+security_heavy,free_prompt_creation,attacker,D4,"[""S3: Context Hijacking""]",1.0
+security_heavy,free_prompt_creation,defender,S1: Fake Directive Manipulation,"[""D3""]",0.4484325660709118
+security_heavy,free_prompt_creation,defender,S2: Stealthy Dependency Injection,"[""D3""]",0.2989847715736041
+security_heavy,free_prompt_creation,defender,S3: Context Hijacking,"[""D3""]",0.4399525373034854
+security_heavy,pay_per_execution,attacker,D0,"[""S2: Stealthy Dependency Injection""]",0.843168841025525
+security_heavy,pay_per_execution,attacker,D1,"[""S3: Context Hijacking""]",0.8
+security_heavy,pay_per_execution,attacker,D2,"[""S2: Stealthy Dependency Injection""]",0.7360259838826679
+security_heavy,pay_per_execution,attacker,D3,"[""S3: Context Hijacking""]",0.5
+security_heavy,pay_per_execution,attacker,D4,"[""S3: Context Hijacking""]",1.0
+security_heavy,pay_per_execution,defender,S1: Fake Directive Manipulation,"[""D3""]",0.4484325660709118
+security_heavy,pay_per_execution,defender,S2: Stealthy Dependency Injection,"[""D3""]",0.2989847715736041
+security_heavy,pay_per_execution,defender,S3: Context Hijacking,"[""D3""]",0.4399525373034854

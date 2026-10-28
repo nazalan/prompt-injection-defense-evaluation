@@ -1,0 +1,9 @@
+defender_scenario,attack_cost_mode,pure_equilibrium_count,mixed_equilibrium_count,pure_supports,mixed_supports,mixed_analysis_complete
+balanced,free_prompt_creation,2,1,"[""A[S2: Stealthy Dependency Injection]|D[D2]"", ""A[S3: Context Hijacking]|D[D3]""]","[""A[S1: Fake Directive Manipulation,S2: Stealthy Dependency Injection]|D[D2,D3]""]",True
+balanced,pay_per_execution,2,1,"[""A[S2: Stealthy Dependency Injection]|D[D2]"", ""A[S3: Context Hijacking]|D[D3]""]","[""A[S2: Stealthy Dependency Injection,S3: Context Hijacking]|D[D2,D3]""]",True
+cost_heavy,free_prompt_creation,1,0,"[""A[S2: Stealthy Dependency Injection]|D[D0]""]",[],True
+cost_heavy,pay_per_execution,1,0,"[""A[S2: Stealthy Dependency Injection]|D[D0]""]",[],True
+false_positive_heavy,free_prompt_creation,2,1,"[""A[S2: Stealthy Dependency Injection]|D[D2]"", ""A[S3: Context Hijacking]|D[D3]""]","[""A[S1: Fake Directive Manipulation,S2: Stealthy Dependency Injection]|D[D2,D3]""]",True
+false_positive_heavy,pay_per_execution,2,1,"[""A[S2: Stealthy Dependency Injection]|D[D2]"", ""A[S3: Context Hijacking]|D[D3]""]","[""A[S2: Stealthy Dependency Injection,S3: Context Hijacking]|D[D2,D3]""]",True
+security_heavy,free_prompt_creation,1,0,"[""A[S3: Context Hijacking]|D[D3]""]",[],True
+security_heavy,pay_per_execution,1,0,"[""A[S3: Context Hijacking]|D[D3]""]",[],True

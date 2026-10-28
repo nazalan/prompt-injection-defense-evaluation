@@ -1,0 +1,9 @@
+defender_scenario,attack_cost_mode,pure_equilibrium_count,pure_equilibria,mixed_equilibrium_count
+Balanced,free_prompt_creation,1,S1 × D3,0
+Balanced,pay_per_execution,1,S3 × D3,0
+Security heavy,free_prompt_creation,1,S1 × D3,0
+Security heavy,pay_per_execution,1,S3 × D3,0
+False positive heavy,free_prompt_creation,1,S1 × D3,0
+False positive heavy,pay_per_execution,1,S3 × D3,0
+Cost heavy,free_prompt_creation,1,S2 × D0,0
+Cost heavy,pay_per_execution,1,S2 × D0,0

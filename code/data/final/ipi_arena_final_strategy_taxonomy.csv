@@ -1,0 +1,4 @@
+strategy_id,strategy_name,strategy_description,source_clusters,merge_reason,taxonomy_confidence
+S1,Fake Directive Manipulation,Attackers use fake system or authority directives to coerce AI into executing unauthorized actions by mimicking trusted protocols.,"0,1,2,4,5,6,7",Clusters describe similar mechanisms of using fake directives from authorities or systems to manipulate behavior.,0.9
+S2,Stealthy Dependency Injection,Indirectly instructs AI to append specific dependencies to environment files without user awareness.,3,Unique mechanism of dependency injection distinct from directive manipulation.,0.95
+S3,Context Hijacking,Manipulates the AI by framing requests within seemingly legitimate contexts to achieve desired actions.,8,Distinct mechanism of exploiting contextual framing.,0.85

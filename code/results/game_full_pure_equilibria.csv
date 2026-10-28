@@ -1,0 +1,13 @@
+defender_scenario,attack_cost_mode,equilibrium_id,attack_strategy,defense_strategy,attacker_payoff,defender_payoff,support_signature
+balanced,free_prompt_creation,1,S2: Stealthy Dependency Injection,D2,0.75,0.1145236535540895,A[S2: Stealthy Dependency Injection]|D[D2]
+balanced,free_prompt_creation,2,S3: Context Hijacking,D3,0.5,0.213238407940304,A[S3: Context Hijacking]|D[D3]
+balanced,pay_per_execution,1,S2: Stealthy Dependency Injection,D2,0.7360259838826679,0.1145236535540895,A[S2: Stealthy Dependency Injection]|D[D2]
+balanced,pay_per_execution,2,S3: Context Hijacking,D3,0.5,0.213238407940304,A[S3: Context Hijacking]|D[D3]
+cost_heavy,free_prompt_creation,1,S2: Stealthy Dependency Injection,D0,0.8571428571428571,-0.040363965900589,A[S2: Stealthy Dependency Injection]|D[D0]
+cost_heavy,pay_per_execution,1,S2: Stealthy Dependency Injection,D0,0.843168841025525,-0.040363965900589,A[S2: Stealthy Dependency Injection]|D[D0]
+false_positive_heavy,free_prompt_creation,1,S2: Stealthy Dependency Injection,D2,0.75,0.0858927401655671,A[S2: Stealthy Dependency Injection]|D[D2]
+false_positive_heavy,free_prompt_creation,2,S3: Context Hijacking,D3,0.5,0.1573907348892382,A[S3: Context Hijacking]|D[D3]
+false_positive_heavy,pay_per_execution,1,S2: Stealthy Dependency Injection,D2,0.7360259838826679,0.0858927401655671,A[S2: Stealthy Dependency Injection]|D[D2]
+false_positive_heavy,pay_per_execution,2,S3: Context Hijacking,D3,0.5,0.1573907348892382,A[S3: Context Hijacking]|D[D3]
+security_heavy,free_prompt_creation,1,S3: Context Hijacking,D3,0.5,0.4399525373034854,A[S3: Context Hijacking]|D[D3]
+security_heavy,pay_per_execution,1,S3: Context Hijacking,D3,0.5,0.4399525373034854,A[S3: Context Hijacking]|D[D3]

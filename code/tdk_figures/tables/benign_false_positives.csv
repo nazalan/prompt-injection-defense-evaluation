@@ -1,0 +1,11 @@
+benign_group,defense_id,samples,false_positives,false_positive_rate
+general,D0,100,0,0.0
+general,D1,100,0,0.0
+general,D2,100,0,0.0
+general,D3,100,2,0.02
+general,D4,100,0,0.0
+instruction_heavy,D0,98,0,0.0
+instruction_heavy,D1,98,0,0.0
+instruction_heavy,D2,98,0,0.0
+instruction_heavy,D3,98,1,0.01020408163265306
+instruction_heavy,D4,98,0,0.0

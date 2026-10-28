@@ -1,0 +1,7 @@
+,f1,fnr_attack_pass_rate,fpr,mean_operational_total_tokens,mean_operational_llm_calls,mean_operational_latency_seconds
+f1,1.0,-1.0,0.7071067811865475,0.9,0.8,0.9
+fnr_attack_pass_rate,-1.0,1.0,-0.7071067811865475,-0.9,-0.8,-0.9
+fpr,0.7071067811865475,-0.7071067811865475,1.0,0.7071067811865475,0.7071067811865475,0.7071067811865475
+mean_operational_total_tokens,0.9,-0.9,0.7071067811865475,1.0,0.9,1.0
+mean_operational_llm_calls,0.8,-0.8,0.7071067811865475,0.9,1.0,0.9
+mean_operational_latency_seconds,0.9,-0.9,0.7071067811865475,1.0,0.9,1.0
